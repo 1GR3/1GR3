@@ -1,0 +1,14 @@
+backend:
+  name: github # Replace with your preferred backend (e.g., GitLab, Bitbucket)
+
+collections:
+  - name: landing
+    label: Landing Page
+    files:
+      - name: index
+        label: Index
+        file: content/index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
